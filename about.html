@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Page</title>
+    <link rel="icon" href="imgs/photo_2024-12-12_23-18-24.jpg" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <!-- nav_bar -->
+    <header>
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="index.html">MULTIMEDIA</a>
+          <ul
+            class="nav nav-pills mb-1 mt-1 me-5"
+            id="pills-tab"
+            role="tablist"
+          >
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-home"
+                type="button"
+                role="tab"
+                aria-controls="pills-home"
+                aria-selected="true"
+              >
+                <a id="w" href="index.html">Home</a>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                <a id="w" href="#ourServices">Our Services</a>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                <a id="w" href="#Team">Team</a>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-contact-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-contact"
+                type="button"
+                role="tab"
+                aria-controls="pills-contact"
+                aria-selected="false"
+              >
+                <a id="w" href="#End">End</a>
+              </button>
+            </li>
+          </ul>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                LOGO-TEAM
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="d-flex align-items-start">
+                <div
+                  class="nav flex-column nav-pills me-3"
+                  id="v-pills-tab"
+                  role="tablist"
+                  aria-orientation="vertical"
+                >
+                  <button
+                    class="nav-link active"
+                    id="v-pills-home-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-home"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-home"
+                    aria-selected="true"
+                  >
+                    <a id="w" href="#home">Home</a>
+                  </button>
+                  <button
+                    class="nav-link"
+                    id="v-pills-profile-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-profile"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-profile"
+                    aria-selected="false"
+                  >
+                    <a id="w" href="about.html">About</a>
+                  </button>
+                  <button
+                    class="nav-link"
+                    id="v-pills-messages-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-messages"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-messages"
+                    aria-selected="false"
+                  >
+                    <a id="w" href="#Team">Team</a>
+                  </button>
+                  <button
+                    class="nav-link"
+                    id="v-pills-settings-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-settings"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-settings"
+                    aria-selected="false"
+                  >
+                    <a id="w" href="#contact">Contact</a>
+                  </button>
+                  <button
+                    class="nav-link"
+                    id="v-pills-settings-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-settings"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-settings"
+                    aria-selected="false"
+                  >
+                    <a id="w" href="#End">End</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Start About Page -->
+
+    <!-- Start Main Section  -->
+    <section id="about_page_home">
+      <div class="container">
+        <h2 class="text-center">ABOUT PAGE</h2>
+        <div class="info">
+          <div class="right-part-parent">
+            <div class="right-part">
+              <div class="main-img">
+                <img src="imgs/Team/kero.jpeg" alt="main image" />
+              </div>
+              <div class="small-img">
+                <img
+                  src="imgs/Team/abdo-hema.jpeg"
+                  alt="main image"
+                />
+                <img
+                  src="imgs/Team/photo_2024-12-13_01-15-57.jpg"
+                  alt="main image"
+                />
+                <img
+                  src="imgs/Team/photo_2024-12-13_01-15-57.jpg"
+                  alt="main image"
+                />
+                <img
+                  src="imgs/Team/photo_2024-12-13_01-15-57.jpg"
+                  alt="main image"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="left-part">
+            <h4>Kerolos Khairy</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+              natus qui dolore, aliquam expedita recusandae aliquid voluptates
+              consequatur nam eum exercitationem error nihil laudantium veniam.
+              Vel nihil dolore modi voluptatem?
+            </p>
+
+            <h4>Mohamed Arab</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+              natus qui dolore, aliquam expedita recusandae aliquid voluptates
+              consequatur nam eum exercitationem error nihil laudantium veniam.
+              Vel nihil dolore modi voluptatem?
+            </p>
+
+            <h4>Abdo Ebrahim</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+              natus qui dolore, aliquam expedita recusandae aliquid voluptates
+              consequatur nam eum exercitationem error nihil laudantium veniam.
+              Vel nihil dolore modi voluptatem?
+            </p>
+
+            <h4>Abdo Naga</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+              natus qui dolore, aliquam expedita recusandae aliquid voluptates
+              consequatur nam eum exercitationem error nihil laudantium veniam.
+              Vel nihil dolore modi voluptatem?
+            </p>
+
+            <h4>Ahmed Elshafiey</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+              natus qui dolore, aliquam expedita recusandae aliquid voluptates
+              consequatur nam eum exercitationem error nihil laudantium veniam.
+              Vel nihil dolore modi voluptatem?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Main Section -->
+
+    <!-- Start The Member Of Team -->
+    <div class="chefs" id="Team">
+      <div class="continer">
+        <div class="main-title">
+          <h2>TEAM</h2>
+          <p>
+            Our
+            <span> Proffesional </span>
+            Team
+          </p>
+        </div>
+        <div class="chefs-cards">
+          <div class="card">
+            <div class="photo">
+              <img
+                src="imgs/Team/photo_2024-12-13_01-15-57.jpg"
+                alt="William Anderso photo"
+              />
+            </div>
+            <div class="card-content">
+              <h3>Mohamed Arab</h3>
+              <span>Lorem, ipsum.</span>
+              <p>
+                Vero omnis enim consequatur. Voluptas consectetur unde qui
+                molestiae deserunt. Voluptates enim aut architecto porro
+                aspernatur molestiae modi.
+              </p>
+            </div>
+            <ul class="social-box">
+              <li>
+                <a href="https://twitter.com" target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://facebook.com" target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com" target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="photo">
+              <img
+                src="imgs/Team/photo_2024-12-13_01-15-57.jpg"
+                alt="William Anderso photo"
+              />
+            </div>
+            <div class="card-content">
+              <h3>Kerolos Khairy</h3>
+              <span>Lorem, ipsum.</span>
+              <p>
+                Vero omnis enim consequatur. Voluptas consectetur unde qui
+                molestiae deserunt. Voluptates enim aut architecto porro
+                aspernatur molestiae modi.
+              </p>
+            </div>
+            <ul class="social-box">
+              <li>
+                <a href="https://twitter.com" target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://facebook.com" target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com" target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="photo">
+              <img
+                src="imgs/Team/kero.jpeg"
+                alt="William Anderso photo"
+              />
+            </div>
+            <div class="card-content">
+              <h3>Kerolos Khairy</h3>
+              <span>Lorem, ipsum.</span>
+              <p>
+                Vero omnis enim consequatur. Voluptas consectetur unde qui
+                molestiae deserunt. Voluptates enim aut architecto porro
+                aspernatur molestiae modi.
+              </p>
+            </div>
+            <ul class="social-box">
+              <li>
+                <a href="https://twitter.com" target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://facebook.com" target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com" target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="photo">
+              <img
+                src="imgs/Team/abdo-hema.jpeg"
+                alt="William Anderso photo"
+              />
+            </div>
+            <div class="card-content">
+              <h3>Abdlla Ebrahim</h3>
+              <span>Lorem, ipsum.</span>
+              <p>
+                Vero omnis enim consequatur. Voluptas consectetur unde qui
+                molestiae deserunt. Voluptates enim aut architecto porro
+                aspernatur molestiae modi.
+              </p>
+            </div>
+            <ul class="social-box">
+              <li>
+                <a href="https://twitter.com" target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://facebook.com" target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com" target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="photo">
+              <img
+                src="imgs/Team/photo_2024-12-13_01-15-57.jpg"
+                alt="William Anderso photo"
+              />
+            </div>
+            <div class="card-content">
+              <h3>Mohamed Arab</h3>
+              <span>Lorem, ipsum.</span>
+              <p>
+                Vero omnis enim consequatur. Voluptas consectetur unde qui
+                molestiae deserunt. Voluptates enim aut architecto porro
+                aspernatur molestiae modi.
+              </p>
+            </div>
+            <ul class="social-box">
+              <li>
+                <a href="https://twitter.com" target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://facebook.com" target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com" target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="photo">
+              <img
+                src="imgs/Team/photo_2024-12-13_01-15-57.jpg"
+                alt="William Anderso photo"
+              />
+            </div>
+            <div class="card-content">
+              <h3>Mohamed Arab</h3>
+              <span>Lorem, ipsum.</span>
+              <p>
+                Vero omnis enim consequatur. Voluptas consectetur unde qui
+                molestiae deserunt. Voluptates enim aut architecto porro
+                aspernatur molestiae modi.
+              </p>
+            </div>
+            <ul class="social-box">
+              <li>
+                <a href="https://twitter.com" target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://facebook.com" target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com" target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End The Member Of Team -->
+    <!-- Start Our Services -->
+    <section id="ourServices">
+      <h2 class="text-center">Our Services</h2>
+
+      <div class="container">
+        <video  controls>
+          <source src="video/1.mp4"></source>
+          Your Browsesr Do Not Support This Type Of Video
+        </video>
+      </div>
+    </section>
+    <!-- End Our Services -->
+    <!-- Start The Footer -->
+    <footer>
+      <div class="footer">
+        <div class="continer">
+          <div class="about">
+            <div id="End">
+              <img
+                src="imgs/photo_2024-12-12_23-18-24.jpg"
+                alt="MULTIMEDIA Logo"
+              />
+            </div>
+            <p>
+              MULTIMEDIA is a form of communication that uses a combination of
+              different types of media into a single interactive content.
+            </p>
+            <h3>Social Media</h3>
+            <ul class="social-links">
+              <li>
+                <a href="https://twitter.com" target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://facebook.com" target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com" target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="subscription">
+            <div class="subscription-box">
+              <h3>Subscribe our Newsletter</h3>
+              <p>
+                Don't miss out on our latest menu updates and exclusive offers -
+                join our newsletter today and stay up-to-date with all things
+                MULTIMEDIA!
+              </p>
+              <div class="sunscription-group">
+                <input
+                  class="form-control"
+                  type="email"
+                  placeholder="Enter Your Email Address"
+                />
+                <button class="btn btn-main">
+                  <i class="fa-solid fa-envelope"></i>Subscribe
+                </button>
+              </div>
+              <div class="quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                  <li><a href>Team</a></li>
+                  <li><a href>Promo</a></li>
+                  <li><a href>About Us</a></li>
+                  <li><a href>Contact</a></li>
+                  <li><a href>Testimonial</a></li>
+                  <li><a href>Our Partners</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="contact-details">
+            <h3>Get in Touch</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-location-dot"></i
+                ><span>A108 Adam Street, New York, NY 535022 </span>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i
+                ><a href="mailto:contact@example.com">contact@ex.com</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-phone"></i
+                ><a href="tel:+1 5589 55488 55">+20 1063301965</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End The Footer -->
+
+    <!-- End About Page -->
+  </body>
+</html>
+

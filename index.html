@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MULTIMEDIA</title>
+    <link rel="icon" href="imgs/photo_2024-12-12_23-18-24.jpg" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <!-- nav_bar -->
+    <header>
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="index.html">MULTIMEDIA</a>
+          <ul
+            class="nav nav-pills mb-1 mt-1 me-5"
+            id="pills-tab"
+            role="tablist"
+          >
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-home"
+                type="button"
+                role="tab"
+                aria-controls="pills-home"
+                aria-selected="true"
+              >
+                <a id="w" href="#home">Home</a>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                <a id="w" href="about.html">About</a>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                <a id="w" href="#Team">Team</a>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-contact-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-contact"
+                type="button"
+                role="tab"
+                aria-controls="pills-contact"
+                aria-selected="false"
+              >
+                <a id="w" href="#contact">Contact</a>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-contact-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-contact"
+                type="button"
+                role="tab"
+                aria-controls="pills-contact"
+                aria-selected="false"
+              >
+                <a id="w" href="#End">End</a>
+              </button>
+            </li>
+          </ul>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                LOGO-TEAM
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="d-flex align-items-start">
+                <div
+                  class="nav flex-column nav-pills me-3"
+                  id="v-pills-tab"
+                  role="tablist"
+                  aria-orientation="vertical"
+                >
+                  <button
+                    class="nav-link active"
+                    id="v-pills-home-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-home"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-home"
+                    aria-selected="true"
+                  >
+                    <a id="w" href="#home">Home</a>
+                  </button>
+                  <button
+                    class="nav-link"
+                    id="v-pills-profile-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-profile"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-profile"
+                    aria-selected="false"
+                  >
+                    <a id="w" href="about.html">About</a>
+                  </button>
+                  <button
+                    class="nav-link"
+                    id="v-pills-messages-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-messages"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-messages"
+                    aria-selected="false"
+                  >
+                    <a id="w" href="#Team">Team</a>
+                  </button>
+                  <button
+                    class="nav-link"
+                    id="v-pills-settings-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-settings"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-settings"
+                    aria-selected="false"
+                  >
+                    <a id="w" href="#contact">Contact</a>
+                  </button>
+                  <button
+                    class="nav-link"
+                    id="v-pills-settings-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-settings"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-settings"
+                    aria-selected="false"
+                  >
+                    <a id="w" href="#End">End</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- home -->
+    <section
+      id="home"
+      class="header"
+      data-scroll-index="0"
+      style="
+        background-image: url(imgs/bg-edite-2.jpg);
+        background-size: cover;
+        background-position: 0px 0px;
+      "
+    >
+      <div class="v-middle">
+        <div class="container">
+          <div class="row">
+            <div class="caption">
+              <h5>What is</h5>
+              <div class="d-flex justify-content-center mt-4 mb-5">
+                <h1 class="mov-letter">
+                  <span class="blc"></span>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="chefs" id="Team">
+      <div class="continer">
+        <div class="main-title">
+          <h2>TEAM</h2>
+          <p>
+            Our
+            <span> Proffesional </span>
+            Team
+          </p>
+        </div>
+        <div class="chefs-cards">
+          <div class="card">
+            <div class="photo">
+              <img
+                src="imgs/Team/photo_2024-12-13_01-15-57.jpg"
+                alt="William Anderso photo"
+              />
+            </div>
+            <div class="card-content">
+              <h3>Mohamed Arab</h3>
+              <span>Lorem, ipsum.</span>
+              <p>
+                Vero omnis enim consequatur. Voluptas consectetur unde qui
+                molestiae deserunt. Voluptates enim aut architecto porro
+                aspernatur molestiae modi.
+              </p>
+            </div>
+            <ul class="social-box">
+              <li>
+                <a href="https://twitter.com" target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://facebook.com" target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com" target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="photo">
+              <img
+                src="imgs/Team/photo_2024-12-13_01-15-57.jpg"
+                alt="William Anderso photo"
+              />
+            </div>
+            <div class="card-content">
+              <h3>Mohamed Arab</h3>
+              <span>Lorem, ipsum.</span>
+              <p>
+                Vero omnis enim consequatur. Voluptas consectetur unde qui
+                molestiae deserunt. Voluptates enim aut architecto porro
+                aspernatur molestiae modi.
+              </p>
+            </div>
+            <ul class="social-box">
+              <li>
+                <a href="https://twitter.com" target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://facebook.com" target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com" target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="photo">
+              <img
+                src="imgs/Team/photo_2024-12-13_01-15-57.jpg"
+                alt="William Anderso photo"
+              />
+            </div>
+            <div class="card-content">
+              <h3>Mohamed Arab</h3>
+              <span>Lorem, ipsum.</span>
+              <p>
+                Vero omnis enim consequatur. Voluptas consectetur unde qui
+                molestiae deserunt. Voluptates enim aut architecto porro
+                aspernatur molestiae modi.
+              </p>
+            </div>
+            <ul class="social-box">
+              <li>
+                <a href="https://twitter.com" target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://facebook.com" target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com" target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="photo">
+              <img
+                src="imgs/Team/photo_2024-12-13_01-15-57.jpg"
+                alt="William Anderso photo"
+              />
+            </div>
+            <div class="card-content">
+              <h3>Mohamed Arab</h3>
+              <span>Lorem, ipsum.</span>
+              <p>
+                Vero omnis enim consequatur. Voluptas consectetur unde qui
+                molestiae deserunt. Voluptates enim aut architecto porro
+                aspernatur molestiae modi.
+              </p>
+            </div>
+            <ul class="social-box">
+              <li>
+                <a href="https://twitter.com" target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://facebook.com" target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com" target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="photo">
+              <img
+                src="imgs/Team/photo_2024-12-13_01-15-57.jpg"
+                alt="William Anderso photo"
+              />
+            </div>
+            <div class="card-content">
+              <h3>Mohamed Arab</h3>
+              <span>Lorem, ipsum.</span>
+              <p>
+                Vero omnis enim consequatur. Voluptas consectetur unde qui
+                molestiae deserunt. Voluptates enim aut architecto porro
+                aspernatur molestiae modi.
+              </p>
+            </div>
+            <ul class="social-box">
+              <li>
+                <a href="https://twitter.com" target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://facebook.com" target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com" target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="photo">
+              <img
+                src="imgs/Team/photo_2024-12-13_01-15-57.jpg"
+                alt="William Anderso photo"
+              />
+            </div>
+            <div class="card-content">
+              <h3>Mohamed Arab</h3>
+              <span>Lorem, ipsum.</span>
+              <p>
+                Vero omnis enim consequatur. Voluptas consectetur unde qui
+                molestiae deserunt. Voluptates enim aut architecto porro
+                aspernatur molestiae modi.
+              </p>
+            </div>
+            <ul class="social-box">
+              <li>
+                <a href="https://twitter.com" target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://facebook.com" target="_blank"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com" target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--==== Contact ====-->
+    <div id="contact" class="chefs contact">
+      <div class="continer">
+        <div class="main-title">
+          <h2>CONTACT</h2>
+          <p>
+            Need Help ?
+            <span> Contact Us </span>
+          </p>
+        </div>
+        <div class="details">
+          <div class="address">
+            <div class="icon"><i class="fa-regular fa-map"></i></div>
+            <div class="address-content">
+              <h3>Our Address</h3>
+              <p>A108 Adam Street, New York, NY 535022</p>
+            </div>
+          </div>
+          <div class="email">
+            <div class="icon"><i class="fa-regular fa-envelope"></i></div>
+            <div class="email-content">
+              <h3>Email Us</h3>
+              <p href="mailto:contact@example.com">ex@gmail.com</p>
+            </div>
+          </div>
+          <div class="phone">
+            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="phone-content">
+              <h3>Call Us</h3>
+              <p href="tel:+1 5589 55488 55">+20 1063301965</p>
+            </div>
+          </div>
+          <div class="opening-hours">
+            <div class="icon"><i class="fa-solid fa-share-nodes"></i></div>
+            <div class="opening-content">
+              <h3>Opening Hours</h3>
+              <p>
+                <strong>Mon-Sat:</strong> 11AM - 23PM; <strong>Sunday</strong> :
+                Closed
+              </p>
+            </div>
+          </div>
+        </div>
+        <form>
+          <div class="input-group">
+            <input
+              class="form-control"
+              type="text"
+              placeholder="Your Name"
+              name="name"
+            />
+            <input
+              class="form-control"
+              type="email"
+              placeholder="Your Email"
+              name="email"
+            />
+          </div>
+          <input
+            class="form-control"
+            type="text"
+            placeholder="Subject"
+            name="subject"
+          />
+          <textarea placeholder="Message" name="message"></textarea>
+          <button class="" type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+
+    <!--==== Footer ====-->
+    <div class="footer">
+      <div class="continer">
+        <div class="about">
+          <div id="End">
+            <img
+              src="imgs/photo_2024-12-12_23-18-24.jpg"
+              alt="MULTIMEDIA Logo"
+            />
+          </div>
+          <p>
+            MULTIMEDIA is a form of communication that uses a combination of
+            different types of media into a single interactive content.
+          </p>
+          <h3>Social Media</h3>
+          <ul class="social-links">
+            <li>
+              <a href="https://twitter.com" target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://facebook.com" target="_blank"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://instagram.com" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://linkedin.com" target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="subscription">
+          <div class="subscription-box">
+            <h3>Subscribe our Newsletter</h3>
+            <p>
+              Don't miss out on our latest menu updates and exclusive offers -
+              join our newsletter today and stay up-to-date with all things
+              MULTIMEDIA!
+            </p>
+            <div class="sunscription-group">
+              <input
+                class="form-control"
+                type="email"
+                placeholder="Enter Your Email Address"
+              />
+              <button class="btn btn-main">
+                <i class="fa-solid fa-envelope"></i>Subscribe
+              </button>
+            </div>
+            <div class="quick-links">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href>Team</a></li>
+                <li><a href>Promo</a></li>
+                <li><a href>About Us</a></li>
+                <li><a href>Contact</a></li>
+                <li><a href>Testimonial</a></li>
+                <li><a href>Our Partners</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="contact-details">
+          <h3>Get in Touch</h3>
+          <ul>
+            <li>
+              <i class="fa-solid fa-location-dot"></i
+              ><span>A108 Adam Street, New York, NY 535022 </span>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i
+              ><a href="mailto:contact@example.com">contact@ex.com</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i
+              ><a href="tel:+1 5589 55488 55">+20 1063301965</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
