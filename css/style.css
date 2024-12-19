@@ -768,6 +768,11 @@ video {
         width: 40px;
         height: 40px;
     }
+
+    #our_services .main-title span ,
+    #Team .main-title p {
+        font-size: 20px;
+    }
 }
 
 /* End About Page Styling */
